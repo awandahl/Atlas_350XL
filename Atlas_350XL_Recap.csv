@@ -1,0 +1,35 @@
+Board,Designator,OriginalValue,OriginalType,ReplacementValue,ReplacementType,ElectrokitPartNumber,Notes
+PC-540,C501,15uF 16V,Tantalum,15uF 25-35V,Radial 105C low-ESR electrolytic,,TX chain decoupling
+PC-540,C505,22uF 16V,Tantalum,22uF 25-35V,Radial 105C low-ESR electrolytic,,TX chain decoupling; common value
+PC-540,C506,1uF 50V,Electrolytic,1uF 50V,Radial 105C electrolytic or 1uF 63V film,,Coupling/decoupling; film ideal if space allows
+
+PC-530,C531,22uF 25V,Electrolytic,22uF 35V,Radial 105C low-ESR electrolytic,,Driver/bias decoupling
+
+PC-550,C561,100uF 16V,Electrolytic,100uF 25-35V,Radial 105C low-ESR electrolytic,,PA rail decoupling; use good low-ESR part
+PC-550,C564,22uF 25V,Electrolytic,22uF 35V,Radial 105C low-ESR electrolytic,,PA supply/bias
+PC-550,C566,22uF 25V,Electrolytic,22uF 35V,Radial 105C low-ESR electrolytic,,PA supply/bias
+PC-550,C558,0.1uF 100V,Mylar,100nF 100V,X7R MLCC or polypropylene film,,RF bypass; keep leads short
+PC-550,C560,0.1uF 100V,Mylar,100nF 100V,X7R MLCC or polypropylene film,,RF bypass; keep leads short
+PC-550,C568,0.1uF 100V,Mylar,100nF 100V,X7R MLCC or polypropylene film,,RF bypass; keep leads short
+PC-550,C569,0.1uF 100V,Mylar,100nF 100V,X7R MLCC or polypropylene film,,RF bypass; keep leads short
+
+PC-250,C202,100uF 16V,Electrolytic,100uF 25-35V,Radial 105C low-ESR electrolytic,,IF/audio rail decoupling
+PC-250,C208,47uF 35V,Tantalum,47uF 35-50V,Radial 105C low-ESR electrolytic,,IF/audio decoupling
+PC-250,C220,2.2uF 16V,Tantalum,2.2uF 25-35V,Radial 105C low-leakage electrolytic,,Signal path/timing; low leakage preferred
+PC-250,C221,2.2uF 16V,Tantalum,2.2uF 25-35V,Radial 105C low-leakage electrolytic,,Signal path/timing; low leakage preferred
+PC-250,C215,6.8uF 10V,Tantalum,6.8uF 25V,Radial 105C electrolytic,,Bias/timing
+PC-250,C222,22uF 16V,Tantalum,22uF 25-35V,Radial 105C electrolytic,,IF decoupling
+PC-250,C224,15uF 16V,Tantalum,15uF 25-35V,Radial 105C electrolytic,,IF decoupling
+
+PC-320,C301,22uF 50V,Mylar,22uF 35-50V,Radial 105C low-leakage electrolytic or film,,Audio/AGC path; film best if space allows
+PC-320,C303,47uF 6V,Tantalum,47uF 16-25V,Radial 105C electrolytic,,Audio/AGC
+PC-320,C305,15uF 16V,Tantalum,15uF 25-35V,Radial 105C electrolytic,,Audio/AGC
+PC-320,C306,1uF 50V,Electrolytic/Mylar,1uF 50V,Radial 105C electrolytic or 1uF 63V film,,Audio coupling; film ideal
+PC-320,C311,75uF 15V,Electrolytic,82-100uF 25V,Radial 105C low-ESR electrolytic,,Decoupling; 82 or 100uF both fine
+PC-320,C313,1uF 25V,Tantalum,1uF 35-50V,Radial 105C electrolytic or film,,Audio/AGC
+PC-320,C314,2.2uF 16V,Tantalum,2.2uF 25-35V,Radial 105C electrolytic,,Audio/AGC
+PC-320,C315,22uF 16V,Tantalum,22uF 25-35V,Radial 105C electrolytic,,Audio/AGC
+PC-320,C318,100uF 16V,Electrolytic,100uF 25-35V,Radial 105C low-ESR electrolytic,,Decoupling
+PC-320,C320,250uF 20V,Electrolytic,220-270uF 25-35V,Radial 105C low-ESR electrolytic,,Decoupling; 220uF is fine
+
+PC-350,C353,15uF 16V,Tantalum,15uF 25-35V,Radial 105C low-leakage electrolytic,,AF notch network; keep leakage low
