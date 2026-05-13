@@ -27,13 +27,15 @@ In this detector, the DC meter is connected **after** the series diode string, s
 
 With the meter on the rectified side, the RF peak across the 50 ohm load is approximated as:
 
-\(V_{pk,RF} \approx V_{DC,measured} + 3.5\)
+V_pk_RF ≈ V_DC_measured + 3.5 V
 
-and then
+Then:
 
-\(V_{rms} = \frac{V_{pk}}{\sqrt{2}}, \qquad P \approx \frac{V_{rms}^2}{50}\)
+V_rms = V_pk / √2
 
-gives the following band‑by‑band output estimates.
+P_out ≈ (V_rms²) / 50 Ω
+
+Using those relations gives the following band‑by‑band output estimates.
 
 | Band   | Measured DC | Estimated RF peak | Estimated RF RMS | Estimated RF output | Estimated DC input | Rough efficiency |
 | :----- | :---------- | :---------------- | :--------------- | :------------------ | :----------------- | :--------------- |
